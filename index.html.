@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>SPORTYGRAND | Official Website</title>
+  <meta name="description" content="Welcome to SPORTYGRAND, my personal brand and business website.">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #080808;
+      color: #f5f0e5;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    :root { --gold: #d6b46a; }
+    .wrap { width: min(1080px, 90%); margin: auto; }
+    header {
+      display: flex; justify-content: space-between;
+      align-items: center; gap: 20px;
+      padding: 25px 0; border-bottom: 1px solid #29251d;
+    }
+    .logo { color: var(--gold); font-weight: 900;
+      letter-spacing: 3px; text-decoration: none; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { color: #ccc; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: var(--gold); }
+    .hero { padding: 110px 0 100px; }
+    .tag { color: var(--gold); letter-spacing: 4px;
+      text-transform: uppercase; font-size: 12px; }
+    h1 { font-size: clamp(45px, 10vw, 100px);
+      line-height: 1.02; letter-spacing: -4px; margin: 20px 0; }
+    h1 span, h2 span { color: var(--gold); }
+    .intro { max-width: 620px; color: #b8b4ac; font-size: 18px; }
+    .button {
+      display: inline-block; margin: 22px 10px 0 0;
+      padding: 12px 22px; border: 1px solid var(--gold);
+      border-radius: 30px; text-decoration: none;
+      color: var(--gold); font-weight: bold;
+    }
+    .button.gold { background: var(--gold); color: #080808; }
+    section { padding: 65px 0; border-top: 1px solid #24211b; }
+    h2 { font-size: clamp(30px, 6vw, 48px); line-height: 1.2; }
+    .muted { color: #b8b4ac; max-width: 700px; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { background: #111; border: 1px solid #302a1e;
+      border-radius: 12px; padding: 24px; }
+    .card small { color: var(--gold); letter-spacing: 2px; }
+    .card p { color: #b8b4ac; }
+    .socials { display: flex; flex-wrap: wrap; gap: 12px; }
+    .socials a { border: 1px solid #39342a; padding: 12px 18px;
+      border-radius: 8px; color: #f5f0e5; text-decoration: none; }
+    .socials a:hover { border-color: var(--gold); color: var(--gold); }
+    footer { padding: 30px 0; color: #999; font-size: 13px; }
+    @media(max-width: 650px) {
+      header { flex-direction: column; align-items: flex-start; }
+      .cards { grid-template-columns: 1fr; }
+      .hero { padding: 75px 0; }
+      h1 { letter-spacing: -2px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="#home">SPORTYGRAND</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#business">Business</a>
+        <a href="#links">Official Links</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero" id="home">
+        <div class="tag">Personal Brand · Vision · Ambition</div>
+        <h1>WELCOME TO<br><span>SPORTYGRAND.</span></h1>
+        <p class="intro">
+          A personal brand built around ambition, creativity
+          and new opportunities. Welcome to my official space.
+        </p>
+        <a class="button gold" href="#links">MY OFFICIAL LINKS</a>
+        <a class="button" href="#about">DISCOVER MORE</a>
+      </div>
+
+      <section id="about">
+        <div class="tag">01 — About me</div>
+        <h2>More than a name.<br><span>A growing vision.</span></h2>
+        <p class="muted">
+          SPORTYGRAND is my personal brand and a home for my
+          ideas, projects, achievements and future plans.
+          This website is where you can discover my work
+          and find my official channels.
+        </p>
+      </section>
+
+      <section id="business">
+        <div class="tag">02 — What I do</div>
+        <h2>Ideas into <span>reality.</span></h2>
+        <div class="cards">
+          <div class="card">
+            <small>01 / BRAND</small>
+            <h3>Personal Brand</h3>
+            <p>My identity, updates and creative journey.</p>
+          </div>
+          <div class="card">
+            <small>02 / PROJECTS</small>
+            <h3>Business & Projects</h3>
+            <p>A place to showcase my work and future ventures.</p>
+          </div>
+          <div class="card">
+            <small>03 / CONNECT</small>
+            <h3>Partnerships</h3>
+            <p>Open to genuine collaborations and opportunities.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="links">
+        <div class="tag">03 — Connect</div>
+        <h2>MY <span>OFFICIAL LINKS</span></h2>
+        <p class="muted">
+          Follow my journey. Replace these sample URLs with
+          your own profile links before sharing this website.
+        </p>
+        <div class="socials">
+          <a href="https://www.instagram.com/">Instagram ↗</a>
+          <a href="https://www.tiktok.com/">TikTok ↗</a>
+          <a href="https://www.youtube.com/">YouTube ↗</a>
+          <a href="https://www.facebook.com/">Facebook ↗</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="tag">04 — Get in touch</div>
+        <h2>Let's build <span>something.</span></h2>
+        <p class="muted">
+          For business enquiries and collaborations,
+          contact me using my official email address.
+        </p>
+        <a class="button gold"
+           href="mailto:YOUR-EMAIL@example.com">CONTACT ME</a>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> SPORTYGRAND. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
